@@ -73,34 +73,27 @@ export default class CreateProduct extends Component {
       render() {
         return (
         <div className="Create-Product" id="Product-List">
-          <h3>Create New Product</h3>
+          <h3>Create New Post</h3>
           <form onSubmit={this.onSubmit}>
               <div className="Form">
               <div className="d-flex-end">
                 <div className="form-group"> 
-                <label>Product Code: </label>
-                <input required className="form-control" value={this.state.code} onChange={this.onChangeCode} placeholder="Enter Code of the Product"/>
+                <label>Title: </label>
+                <input required className="form-control" value={this.state.code} onChange={this.onChangeCode} placeholder="Add Title..."/>
                 </div>
                 <div className="form-group">
-                <label>Category:</label>
-                <input required  type="text" className="form-control" value={this.state.category} onChange={this.onChangeCategory} placeholder="Enter Category of the Product"/>
+                <label>Description</label>
+                <input required  type="text" className="form-control" value={this.state.category} onChange={this.onChangeCategory} placeholder="Add Description.."/>
+                </div>
+                <div className="form-group">
+                <label>Details</label>
+                <input required  type="text"  className="form-control" value={this.state.category} onChange={this.onChangeCategory} placeholder="Add Details..."/>
                 </div>
             </div>
-            <div className="form-group"> 
-              <label>Product Name: </label>
-              <input required  type="text" required className="form-control" value={this.state.name} onChange={this.onChangeName} placeholder="Enter Name of the Product"/>
-            </div>
-            <div className="form-group">
-              <label>Quantity:</label>
-              <input required  type="text" className="form-control" value={this.state.quantity} onChange={this.onChangeQuantity} placeholder="Enter Number of Units"/>
-            </div>
-            <div className="form-group">
-              <label>Price (Per Unit):</label>
-              <input required type="text" className="form-control" value={this.state.price} onChange={this.onChangePrice} placeholder="Enter Price per Unit"/>
-            </div>
+            
             <br/>
             <div className="form-group" id="button">
-              <input type="submit" value="Create Product" className="btn btn-primary"/>
+              <input type="submit" value="Publish" className="btn btn-primary"/>
             </div>
             </div>
           </form>

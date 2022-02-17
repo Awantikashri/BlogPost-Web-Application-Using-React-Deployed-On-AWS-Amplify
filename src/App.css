@@ -1,20 +1,26 @@
 body{
-  background-color: #d9d9d9;
+  background-color: #9AD0EC;
 }
 .navbar-brand{
   margin-left: 10px;
 }
 h3{
   color: #d9d9d9;
-  font-size: 40px;
+  font-size: 50px;
+  font-family:'Times New Roman', Times, serif;
+  color: #081c15;
+  font-style: oblique;
+}
+h2{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .Product-List{
   justify-content: center;
-  width: fit-content;
+  width: 700px;
   padding: 10px;
   border-radius: 10px;
-  background-color: #284b63;
-  margin-left: 300px;
+  background-color: #E3BEC6;
+  margin-left: 350px;
   display: flex;
 			justify-content: center;
 			flex-direction: column;
@@ -27,12 +33,12 @@ h3{
 
 .Create-Product
 {
-  color: #d9d9d9;
+  color: #081c15;
   justify-content: center;
   width: fit-content;
   padding: 10px;
   border-radius: 10px;
-  background-color: #353535;
+  background-color: #E3BEC6;
   margin-left: 500px;
   display: flex;
 			justify-content: center;
@@ -48,24 +54,22 @@ h3{
   width: 500px;
   padding: 10px;
   border-radius: 10px;
-  background-color: #284b63;
+  background-color: #EFDAD7;
 }
 #button
 {
   text-align: center;
 }
 table{
-  background-color: #d9d9d9;
+  background-color: #EFDAD7;
   height: 100px;
   overflow-y:scroll;
-}
-.Table{
-  height:380px;
-  overflow:auto;
+  text-align: center;
 }
 
+
 .user_card {
-  width: 500px;
+  width: 600px;
   left: 459px;
   top: 300px;
   margin-top: 100px;
